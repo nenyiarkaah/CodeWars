@@ -1,0 +1,56 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.23107.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CodeWars", "CodeWars\CodeWars.csproj", "{165E8320-A299-4A74-8A5E-9CA14029C88A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ConsecutiveStrings", "ConsecutiveStrings", "{4139D3F6-0F8D-4664-B24E-C6E112F608E9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsecutiveStrings", "ConsecutiveStrings\ConsecutiveStrings.csproj", "{38712954-E367-4AE6-9A81-C108098862E6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsecutiveStringsTests", "ConsecutiveStringsTests1\ConsecutiveStringsTests.csproj", "{BDDF2752-58EA-4362-8D68-12DF07040400}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "VasyaClerk", "VasyaClerk", "{27E11639-4E85-401E-B4DD-280531708514}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VasyaClerk", "VasyaClerk\VasyaClerk.csproj", "{DB8B75F4-A5F3-48CF-B2D0-F4BE06C2EABC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VasyaClerkTests", "VasyaClerkTests\VasyaClerkTests.csproj", "{7A28B990-035E-44BD-BB4F-4FAA7268CB91}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{165E8320-A299-4A74-8A5E-9CA14029C88A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{165E8320-A299-4A74-8A5E-9CA14029C88A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{165E8320-A299-4A74-8A5E-9CA14029C88A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{165E8320-A299-4A74-8A5E-9CA14029C88A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{38712954-E367-4AE6-9A81-C108098862E6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{38712954-E367-4AE6-9A81-C108098862E6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{38712954-E367-4AE6-9A81-C108098862E6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{38712954-E367-4AE6-9A81-C108098862E6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BDDF2752-58EA-4362-8D68-12DF07040400}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BDDF2752-58EA-4362-8D68-12DF07040400}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BDDF2752-58EA-4362-8D68-12DF07040400}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BDDF2752-58EA-4362-8D68-12DF07040400}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DB8B75F4-A5F3-48CF-B2D0-F4BE06C2EABC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DB8B75F4-A5F3-48CF-B2D0-F4BE06C2EABC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DB8B75F4-A5F3-48CF-B2D0-F4BE06C2EABC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DB8B75F4-A5F3-48CF-B2D0-F4BE06C2EABC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7A28B990-035E-44BD-BB4F-4FAA7268CB91}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7A28B990-035E-44BD-BB4F-4FAA7268CB91}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7A28B990-035E-44BD-BB4F-4FAA7268CB91}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7A28B990-035E-44BD-BB4F-4FAA7268CB91}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{38712954-E367-4AE6-9A81-C108098862E6} = {4139D3F6-0F8D-4664-B24E-C6E112F608E9}
+		{BDDF2752-58EA-4362-8D68-12DF07040400} = {4139D3F6-0F8D-4664-B24E-C6E112F608E9}
+		{DB8B75F4-A5F3-48CF-B2D0-F4BE06C2EABC} = {27E11639-4E85-401E-B4DD-280531708514}
+		{7A28B990-035E-44BD-BB4F-4FAA7268CB91} = {27E11639-4E85-401E-B4DD-280531708514}
+	EndGlobalSection
+EndGlobal
